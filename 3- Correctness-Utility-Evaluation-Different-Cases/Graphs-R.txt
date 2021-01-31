@@ -1,0 +1,11 @@
+1) Relationship between the number of family members/ non-relatives and the adversary correctness in inferring the targeted SNPs.
+
+> data <- read.csv("correctnessResults.csv",header = FALSE)
+> colnames(data) <- c("familyno","correctness")
+> ggplot(data, aes(x=familyno, y=correctness)) +
++ geom_smooth(method=lm,  linetype="dashed",
++ color="darkred", fill="blue") + labs(y="Correctness", x="Number of family members") + theme_bw() + scale_x_continuous(breaks=seq(1, 4, 1)) + theme(text = element_text(size=16))
+
+2) The effect of different values of the privacy budget, Epsilon , on the adversary's correctness in inferring the targeted SNPs, using different number of family members included in the noisy results of count query.
+
+>ggplot(data, aes(x=epsilon, y= correctness)) + geom_point(aes(col=Family), size=3) +  geom_smooth(method="lm", size=2) + labs(y="Correctness", x="Privacy Budget Epsilon") + theme_bw() + theme(text = element_text(size=16))
