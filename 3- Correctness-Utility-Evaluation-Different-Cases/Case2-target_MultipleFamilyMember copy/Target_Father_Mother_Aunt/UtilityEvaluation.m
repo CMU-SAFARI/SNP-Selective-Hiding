@@ -9,7 +9,7 @@ Noisy = xlsread('MAF-Noisy-Values.xlsx');
 save('Noisy.mat','Noisy');
 
 %%
-for i = 1:17   %17 column in each file for the MAF results using 18 epsilon values in LPM
+for i = 1:17   %17 column in each file for the MAF results using 17 epsilon values in LPM
 for k = 1:size(Correct,1)
 
             B(k,i) = Correct(k,i)-Noisy(k,i);
