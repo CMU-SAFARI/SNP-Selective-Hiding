@@ -16,4 +16,4 @@ The demo could be run in the following order from the terminal:
 Rscript selective_hiding_part1.R 
 Rscript selective_hiding_part2.R 
 ```
-Note: You must have Rcplex package installed.
+Note: You must have [Rcplex package](https://cran.r-project.org/web/packages/Rcplex/index.html) installed.
