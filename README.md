@@ -14,7 +14,7 @@ Described by Almadhoun Alserr et al. This work is submitted to the Bioinformatic
 - [Used Packages](#Packages)
 - [Supplementary Materials](#supp)
 - [Getting Help](#contact)
-- [Citing COVIDHunter](#cite)
+- [Citing Our Paper](#cite)
 
 ##  <a name="idea"></a>The Key Idea 
 Recent works show how dependency between dataset tuples (or records) may reduce the privacy guarantees of DP-based techniques, and they propose general mechanisms to tackle this problem by increasing the added noise to the shared summary statistics which, in turn, degrades the data utility. The key idea in our mechanism is, rather than adding more noise to the DP-released statistics, we reduce the level of familial dependency. 
@@ -38,7 +38,7 @@ You must have [Rcplex package](https://cran.r-project.org/web/packages/Rcplex/in
 ##  <a name="contact"></a>Getting Help
 If you have any question or any suggestion for improvement, please contact nourmn.alserr at ethz dot ch
 
-## <a name="cite"></a>Citing Our paper:
+## <a name="cite"></a>Citing Our Paper:
 
 If you use our mechanism in your work, please cite:
 **TBA**
