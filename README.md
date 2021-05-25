@@ -27,7 +27,7 @@ Following a sequential way in our mechanism, we have two steps:
 
 **Step 1:** Selective Hiding: genomes first collected and dataset owner process/obfuscate them sequentially.
 
-**Step 2:** Differentially-private data release: all queries are differentially-private answered by the dataset owner over the dataset with the hidden SNPs.
+**Step 2:** Differentially-private Data Release: all queries are differentially-private answered by the dataset owner over the dataset with the hidden SNPs.
 
 ## <a name="demo"></a> Selective Hiding for MC Family:
 In this demo we run the selective hiding mechanism for four members of MC family in the following order: MC (son), his father, mother and maternal aunt. The first part of the demo chooses overlapping parts between the son, the father and the mother trio to minimize kinship values. In the second part, we add aunt to the family and run integer optimization model to find minimal snps to be hidden.
