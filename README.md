@@ -37,8 +37,10 @@ Rscript selective_hiding_part1.R
 Rscript selective_hiding_part2.R 
 ```
 ## <a name="demo2"></a> Differentially-private Data Release:
-
-
+To release differentially-private sum statistics for the sum of 547 SNPs for "MC (son), his father, mother and maternal aunt", we use Laplace perturbation mechanism (LPM). To get the LPM-based noisy sum you can run:  
+```
+laplaceNoise.m 
+```
 ## <a name="package"></a> Required Packages:
 You must have [Rcplex package](https://cran.r-project.org/web/packages/Rcplex/index.html) installed.
 
