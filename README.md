@@ -24,7 +24,9 @@ In this work, we introduce a near-optimal optimization-based mechanism to mitiga
 
 ## <a name="started"></a> Using Our Mechanism:
 Following a sequential way in our mechanism, we have two steps: 
+
 **Step 1:** Selective Hiding: genomes first collected and dataset owner process/obfuscate them sequentially.
+
 **Step 2:** Differentially-private data release: all queries are differentially-private answered by the dataset owner over the dataset with the hidden SNPs.
 
 ## <a name="demo"></a> Selective Hiding for MC Family:
