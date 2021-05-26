@@ -46,7 +46,7 @@ You must have [Rcplex package](https://cran.r-project.org/web/packages/Rcplex/in
 
 
 ##  <a name="contact"></a>Getting Help
-If you have any question or any suggestion for improvement, please contact nourmn.alserr at ethz dot ch
+If you have any question or any suggestion for improvement, please contact nourmn.alserr at safari dot ethz dot ch
 
 ## <a name="cite"></a>Citing Our Paper:
 
