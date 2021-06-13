@@ -2,7 +2,7 @@
 # **Near-Optimal Privacy-Utility Tradeoff in Genomic Studies Using Selective SNP Hiding**
 Researchers need a rich trove of genomic datasets that they can leverage to gain a better understanding of the genetic basis of the human genome and identify associations between phenotypes and specific parts of DNA. However, sharing genomic datasets that include sensitive genetic or medical information of individuals can lead to serious privacy-related consequences if data lands in the wrong hands. Restricting access to genomic datasets is one solution, but this greatly reduces their usefulnessfor research purposes. To allow sharing of genomic datasets while addressing these privacy concerns,several studies propose privacy-preserving mechanisms for data sharing. Differential privacy (DP) is one of such mechanisms that formalize rigorous mathematical foundations to provide privacy guarantees whilesharing aggregated statistical information about a dataset. However, it has been shown that the original privacy guarantees of DP-based solutions degrade when there are dependent tuples in the dataset, which is a common scenario for genomic datasets (due to the existence of family members).
 
-Described by Almadhoun Alserr et al. This work is submitted to the Bioinformatics journal.
+Described by Almadhoun Alserr et al. This work is submitted to the Bioinformatics journal (preliminary version at https://arxiv.org/abs/2106.05211).
 
 
 ## Table of Contents
@@ -51,10 +51,22 @@ If you have any question or any suggestion for improvement, please contact nourm
 ## <a name="cite"></a>Citing Our Paper:
 
 If you use our mechanism in your work, please cite:
-**TBA**
+> Nour Almadhoun Alserr, Gulce Kale, Onur Mutlu, Oznur Tastan, Erman Ayday, 
+> "Near-Optimal Privacy-Utility Tradeoff in Genomic Studies Using Selective SNP Hiding", 
+> arXiv preprint **arXiv**:2106.05211 (2021). [link](https://arxiv.org/abs/2106.05211)
 
 
 Below is bibtex format for citation.
-**TBA**
 
+```bibtex
+@misc{alserr2021nearoptimal,
+      title={Near-Optimal Privacy-Utility Tradeoff in Genomic Studies Using Selective SNP Hiding}, 
+      author={Nour Almadhoun Alserr and Gulce Kale and Onur Mutlu and Oznur Tastan and Erman Ayday},
+      year={2021},
+      eprint={2106.05211},
+      archivePrefix={arXiv},
+      abstract = {Motivation: Researchers need a rich trove of genomic datasets that they can leverage to gain a better understanding of the genetic basis of the human genome and identify associations between phenotypes and specific parts of DNA. However, sharing genomic datasets that include sensitive genetic or medical information of individuals can lead to serious privacy-related consequences if data lands in the wrong hands. Restricting access to genomic datasets is one solution, but this greatly reduces their usefulness for research purposes. To allow sharing of genomic datasets while addressing these privacy concerns, several studies propose privacy-preserving mechanisms for data sharing. Differential privacy (DP) is one of such mechanisms that formalize rigorous mathematical foundations to provide privacy guarantees while sharing aggregated statistical information about a dataset. However, it has been shown that the original privacy guarantees of DP-based solutions degrade when there are dependent tuples in the dataset, which is a common scenario for genomic datasets (due to the existence of family members). Results: In this work, we introduce a near-optimal mechanism to mitigate the vulnerabilities of the inference attacks on differentially private query results from genomic datasets including dependent tuples. We propose a utility-maximizing and privacy-preserving approach for sharing statistics by hiding selective SNPs of the family members as they participate in a genomic dataset. By evaluating our mechanism on a real-world genomic dataset, we empirically demonstrate that our proposed mechanism can achieve up to 40% better privacy than state-of-the-art DP-based solutions, while near-optimally minimizing the utility loss. Availability: https://github.com/CMU-SAFARI/SNP-Selective-Hiding},
+      primaryClass={cs.CR}
+}
+```
 
