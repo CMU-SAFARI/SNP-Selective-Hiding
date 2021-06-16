@@ -2,7 +2,7 @@
 # **Near-Optimal Privacy-Utility Tradeoff in Genomic Studies Using Selective SNP Hiding**
 Researchers need a rich trove of genomic datasets that they can leverage to gain a better understanding of the genetic basis of the human genome and identify associations between phenotypes and specific parts of DNA. However, sharing genomic datasets that include sensitive genetic or medical information of individuals can lead to serious privacy-related consequences if data lands in the wrong hands. Restricting access to genomic datasets is one solution, but this greatly reduces their usefulnessfor research purposes. To allow sharing of genomic datasets while addressing these privacy concerns,several studies propose privacy-preserving mechanisms for data sharing. Differential privacy (DP) is one of such mechanisms that formalize rigorous mathematical foundations to provide privacy guarantees whilesharing aggregated statistical information about a dataset. However, it has been shown that the original privacy guarantees of DP-based solutions degrade when there are dependent tuples in the dataset, which is a common scenario for genomic datasets (due to the existence of family members).
 
-Described by Almadhoun Alserr et al. This work is submitted to the Bioinformatics journal (preliminary version at https://arxiv.org/abs/2106.05211).
+Described by Almadhoun Alserr et al. This work is "[Under Review]" in the Bioinformatics journal (preliminary version at https://arxiv.org/abs/2106.05211).
 
 
 ## Table of Contents
