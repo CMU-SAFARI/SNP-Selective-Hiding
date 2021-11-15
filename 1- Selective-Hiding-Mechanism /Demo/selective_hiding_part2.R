@@ -2,7 +2,7 @@ library(methods)
 source("functions.r")
 library(Rcplex)
 
-data = read.csv("/Users/apple/Desktop/new code/data/newgenotype_MCF.csv")
+data = read.csv("data/newgenotype_MCF.csv")
 data = data[,-1]
 indices = data[,1]
 
